@@ -22,6 +22,7 @@ someRequestToElasticSearchOrUsingANodeJSClient(function(err, ok){
 
     // etc...
 });
+```
 
 # Supported exceptions (Elasticsearch v1.4.0)
 
