@@ -2,7 +2,7 @@
   "name": "elasticsearch-exceptions",
   "version": "0.0.1",
   "description": "Parse Elasticsearch exception responses and transform them into JavaScript Errors",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "mocha --check-leaks --bail --reporter spec lib/**.test.js",
     "test-cov": "istanbul cover _mocha -- --check-leaks --reporter dot lib/**.test.js",
