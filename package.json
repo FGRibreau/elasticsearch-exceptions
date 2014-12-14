@@ -1,0 +1,29 @@
+{
+  "name": "elasticsearch-exceptions",
+  "version": "0.0.1",
+  "description": "Parse Elasticsearch exception responses and transform them into JavaScript Errors",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --check-leaks --bail --reporter spec lib/**.test.js",
+    "test-cov": "istanbul cover _mocha -- --check-leaks --reporter dot lib/**.test.js",
+    "test-ci": "istanbul cover _mocha --report lcovonly -- --check-leaks --reporter spec lib/**.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FGRibreau/elasticsearch-exceptions.git"
+  },
+  "devDependencies": {
+    "better-assert": "^1.0.2",
+    "chai": "^1.10.0",
+    "istanbul": "^0.x",
+    "jshint": "^2.x",
+    "mocha": "^2.0.1",
+    "should": "^4.4.1"
+  },
+  "author": "Francois-Guillaume Ribreau <npm@fgribreau.com> (http://fgribreau.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FGRibreau/elasticsearch-exceptions/issues"
+  },
+  "homepage": "https://github.com/FGRibreau/elasticsearch-exceptions"
+}
