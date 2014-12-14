@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/FGRibreau/elasticsearch-exceptions/issues"
   },
-  "homepage": "https://github.com/FGRibreau/elasticsearch-exceptions"
+  "homepage": "https://github.com/FGRibreau/elasticsearch-exceptions",
+  "dependencies": {
+    "lodash": "^2.4.1"
+  }
 }
