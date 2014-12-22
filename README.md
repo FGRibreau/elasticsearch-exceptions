@@ -59,6 +59,7 @@ someRequestToElasticSearchOrUsingANodeJSClient(function(err, ok){
   'IndexShardAlreadyExistsException',
   'IndexTemplateAlreadyExistsException',
   'IndexTemplateMissingException',
+  'IndexMissingException',
   'IndexWarmerMissingException',
   'InvalidIndexTemplateException',
   'Lucene.EarlyTerminationException',

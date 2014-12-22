@@ -1,6 +1,6 @@
 {
   "name": "elasticsearch-exceptions",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Parse Elasticsearch exception responses and transform them into JavaScript Errors",
   "main": "lib/index.js",
   "scripts": {
